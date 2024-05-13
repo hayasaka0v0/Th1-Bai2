@@ -1,0 +1,42 @@
+#courses{
+    list-style-type: none;
+    display:flex;    
+    padding:0;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.headline{
+    text-transform: uppercase;
+    margin: 15px 15px;
+    color:rgb(140, 44, 44)
+}
+.course {
+    width:30% ;
+    margin: 0 20px;
+    margin-bottom: 3rem;
+
+    
+}
+
+.course img{
+    height: 13rem;
+    width: 100%;
+    margin-bottom:15px;
+}
+
+.headline{
+    border-left: 5px solid rgb(140, 44, 44);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    
+}
+
+#informations{
+    padding :0;
+}
+
+i{
+    color:rgb(140, 44, 44);
+}
